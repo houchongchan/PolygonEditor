@@ -1,1 +1,1 @@
-# chords-editor
+# polygon-editor
