@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  run:
+    build: .
+    image: polygon_editor
+    command: |
+      sh -c '
+        npm install
+        npm start
+      '
+    ports:
+      - 3000:3000
+    volumes:
+      - ./:/app
+      - ./tests/mocks/images:/app/public/images

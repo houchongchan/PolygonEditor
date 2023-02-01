@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:400,700,500,600");
+
+* {
+	box-sizing: border-box;
+	font-family: var(--font-family);
+}
+
+:root {
+	--bar: #616b84;
+	--black2: #000000;
+	--font-size-m: 14px;
+	--font-size-s: 12px;
+	--font-family: "Inter", Helvetica;
+}
+
+body {
+	-drag: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	margin: 0px;
+	user-select: none;
+}
+
+button,
+select {
+	appearance: none;
+	background-color: transparent;
+	border: 0;
+	border-style: solid;
+	margin: 0;
+	padding: 0;
+}
+
+button:disabled {
+	cursor: not-allowed;
+}
+
+img {
+	-drag: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+input:focus {
+	outline: none;
+}

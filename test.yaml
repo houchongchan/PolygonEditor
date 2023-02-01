@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  test:
+    build: .
+    image: polygon_editor
+    command: |
+      bash -c '
+        yarn install
+        if [ -z "${ARG}" ]
+        then
+          npx nodemon --exec "npx playwright test"
+        else
+          npx playwright test
+        fi
+      '
+    volumes:
+      - ./:/app
+      - ./tests/mocks/images:/app/public/images
