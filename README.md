@@ -10,8 +10,10 @@ Clicking on the Canvas generates markers at that location. Your initial click ge
 See follow for an example:
 
 ### Prior to Connecting the Points
-![image](https://github.com/houchongchan/PolygonEditor/assets/30061766/d350d597-a4d7-41bc-8215-971bce54fea1)
+![Screenshot from 2023-06-29 00-04-34](https://github.com/houchongchan/PolygonEditor/assets/30061766/f5fb0100-5c3f-4c7e-a276-d938d58ea577)
+
 
 ### After to Connecting the Points
-![image](https://github.com/houchongchan/PolygonEditor/assets/30061766/37648001-7d9a-47e6-850a-9bfaaffd588b)
+![Screenshot from 2023-06-29 00-12-26](https://github.com/houchongchan/PolygonEditor/assets/30061766/45936ba5-96dd-4bf3-9565-048e3e70af8c)
+
 
